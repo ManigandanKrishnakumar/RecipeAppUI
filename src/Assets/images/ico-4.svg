@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ico</title>
+    <defs>
+        <polygon id="path-1" points="0 29 220.966736 29 229.712972 29 375 29 375 80 0 80"></polygon>
+        <filter x="-8.3%" y="-64.7%" width="116.5%" height="221.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0773607337   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="58" height="58" rx="19"></rect>
+        <filter x="-28.4%" y="-23.3%" width="156.9%" height="156.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.775132716   0 0 0 0 0.565510671  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Recipe-app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Recipe-app_8" transform="translate(-149.000000, -725.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="375" height="812"></rect>
+            <g id="Tap_bar" transform="translate(0.000000, 732.000000)">
+                <g id="Rectangle" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <g id="ico" transform="translate(159.000000, 0.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FC8B56" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <path d="M29.2565647,19 C24.4301239,19.0058501 20.5189794,22.917019 20.5131294,27.7434899 C20.5192709,29.6265028 21.1390042,31.4562029 22.2784289,32.9553594 L18.3813549,36.8524577 C18.056653,37.1660673 17.9264307,37.6304758 18.0407392,38.0671875 C18.1550477,38.5038991 18.4960978,38.8449513 18.9328067,38.9592605 C19.3695156,39.0735697 19.8339212,38.9433467 20.1475289,38.6186427 L24.0446029,34.7215443 C25.5437683,35.8610466 27.3735064,36.4808294 29.2565647,36.4869799 C34.0854307,36.4869799 38,32.5723861 38,27.7434899 C38,22.9145938 34.0854307,19 29.2565647,19 Z M29.2565647,33.9888399 C25.8073747,33.9888399 23.0112537,31.1927015 23.0112537,27.7434899 C23.0112537,24.2942784 25.8073747,21.49814 29.2565647,21.49814 C32.7057547,21.49814 35.5018756,24.2942784 35.5018756,27.7434899 C35.4978147,31.191018 32.7040712,33.984779 29.2565647,33.9888399 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

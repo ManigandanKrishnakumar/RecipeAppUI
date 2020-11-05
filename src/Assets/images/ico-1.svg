@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="22px" viewBox="0 0 16 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ico</title>
+    <defs>
+        <polygon id="path-1" points="0 29 220.966736 29 229.712972 29 375 29 375 80 0 80"></polygon>
+        <filter x="-8.3%" y="-64.7%" width="116.5%" height="221.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0773607337   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Recipe-app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Recipe-app_8" transform="translate(-248.000000, -776.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="375" height="812"></rect>
+            <g id="Tap_bar" transform="translate(0.000000, 732.000000)">
+                <g id="Rectangle" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <g id="ico" transform="translate(249.000000, 45.000000)" stroke="#FC8B56" stroke-linejoin="round">
+                    <path d="M1.75,0 L12.25,0 C13.2164983,-1.7754286e-16 14,0.783501688 14,1.75 L14,20 L14,20 C9.41332098,16.9183381 7.11998148,15.3775071 7.11998148,15.3775071 C7.11998148,15.3775071 4.74665432,16.9183381 0,20 L0,1.75 C-1.18361906e-16,0.783501688 0.783501688,1.7754286e-16 1.75,0 Z" id="Rectangle"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
